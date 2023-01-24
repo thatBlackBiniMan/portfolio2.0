@@ -52,7 +52,7 @@ export const navigation = [
   },
   {
     name: 'about',
-    href: 'about',
+    href: 'me',
   },
   {
     name: 'portfolio',
@@ -64,7 +64,7 @@ export const navigation = [
   },
   {
     name: 'testimonials',
-    href: 'testimonials',
+    href: 'testimonial',
   },
   {
     name: 'contact',
@@ -259,12 +259,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at solomonomoruyi66@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Benin City, Nigeria',
     description: 'Serving clients worldwide',
   },
 ];
