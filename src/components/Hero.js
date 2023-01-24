@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center text-center lg:items-start'>
             <p className='text-lg text-accent mb-[22px]'>Hey, I'm Dr solomon Omoruyi</p>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>I am a Medical Doctor & a <br/> Software Developer</h1>
+            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>I am a Medical Doctor &<br/> a Software Developer</h1>
              <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque facere deserunt sed!
             </p>
