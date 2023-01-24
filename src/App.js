@@ -4,6 +4,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Brands from './components/Brands';
+import Me from './components/Me';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <Header/>
     <Hero/>
     <Brands/>
+    <Me/>
     <div style={{height: '2000px'}}></div>
     </div>
     );
