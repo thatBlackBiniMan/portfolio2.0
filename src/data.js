@@ -22,11 +22,11 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
+import Project1 from './assets/img/projects2/p6.jpeg';
+import Project2 from './assets/img/projects2/p2.png';
+import Project3 from './assets/img/projects2/p4.jpg';
+import Project4 from './assets/img/projects2/p3.jpg';
+import Project5 from './assets/img/projects2/p5.png';
 import Project6 from './assets/img/projects/p6.webp';
 
 // skills images
@@ -76,19 +76,19 @@ export const navigation = [
 export const social = [
   {
     icon: <FiLinkedin />,
-    href: '',
+    href: 'https://www.linkedin.com/in/drsolomonomoruyi/',
   },
   {
     icon: <FiTwitter />,
-    href: '',
+    href: 'https://twitter.com/DrOmoruyi',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/thatBlackBiniMan',
   },
   {
     icon: <FiInstagram/>,
-    href: '',
+    href: 'https://instagrame.com/dromoruyi',
   },
 ];
 
@@ -96,23 +96,23 @@ export const social = [
 export const brands = [
   {
     img: FreelancerBrandIcon,
-    href: '',
+    href: 'https://freelancer.com/',
   },
   {
     img: UpworkBrandIcon,
-    href: '',
+    href: 'https://upwork.com/',
   },
   {
     img: FiverBrandIcon,
-    href: '',
+    href: 'https://fiver.com/',
   },
   {
     img: BehanceBrandIcon,
-    href: '',
+    href: 'https://behance.com/',
   },
   {
     img: DribbbleBrandIcon,
-    href: '',
+    href: 'https://dribble.com/',
   },
 ];
 
@@ -121,37 +121,37 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Escrow Payment Smart contracts',
+    category: 'Blockchain Applications',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'My Blogsite',
     category: 'web development',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'NFT Marketplace',
+    category: 'Blockchain Applications',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Ebook website',
+    category: 'Ebooks & Articles',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'NFT Minting app',
     category: 'web development',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    name: 'Crowdfunding App',
     category: 'web development',
   },
 ];
@@ -162,13 +162,13 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
-  },
-  {
     name: 'web development',
   },
   {
-    name: 'branding',
+    name: 'Blockchain Applications',
+  },
+  {
+    name: 'Ebooks & Articles',
   },
 ];
 
@@ -204,25 +204,25 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Telemedicine',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'SEO Articles & Research',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Web Development',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Blockchain Software',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
