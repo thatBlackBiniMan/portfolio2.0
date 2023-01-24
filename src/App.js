@@ -12,12 +12,14 @@ import Testimonial from './components/Testimonial';
 import Contat from './components/Contat';
 import Footer from './components/Footer';
 import BacToTopBtn from './components/BacToTopBtn';
+import SocialLinks from './components/SocialLinks';
 
 
 const App = () => {
   return( 
     <div>
     <Header/>
+    <SocialLinks/>
     <Hero/>
     <Brands/>
     <Me/>
