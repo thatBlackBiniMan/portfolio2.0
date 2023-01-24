@@ -5,6 +5,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Brands from './components/Brands';
 import Me from './components/Me';
+import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
 
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
     <Hero/>
     <Brands/>
     <Me/>
+    <Skills/>
+    <Portfolio/>
     <div style={{height: '2000px'}}></div>
     </div>
     );
