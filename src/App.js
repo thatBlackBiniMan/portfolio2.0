@@ -7,6 +7,7 @@ import Brands from './components/Brands';
 import Me from './components/Me';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
+import Services from './components/Services';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
     <Me/>
     <Skills/>
     <Portfolio/>
+    <Services/>
     <div style={{height: '2000px'}}></div>
     </div>
     );
